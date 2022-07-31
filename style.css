@@ -1,0 +1,134 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+
+/* .canvas{
+  position: relative;
+  display: inline-block;
+  background: rgb(204, 0, 255):
+    
+} */
+
+#title{
+  background: cyan;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px:
+}
+.nav{
+  border: black solid;
+  margin:  20px;
+  font-family: impact;
+ 
+ 
+  display: inline-block;
+  justify-content: space-between;
+  display: flex;
+  scroll-behavior: smooth;
+  padding: 10px 50px 10px 50px;
+
+}
+
+
+.btn {background-color: black;} /* Blue */
+.btn:hover {background: black;}
+
+.btn {
+  border: none; /* Remove borders */
+  color: cyan;
+   text-shadow:  -3px -2px 4px black;;
+; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  font-family: impact;
+  font-size: 30px;
+  border-radius: 50px;
+  background-image: linear-gradient( #FFFF80, #39ff14);
+}
+
+p{
+  color: black;
+  text-indent: 30px;
+  background-color: cyan;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  padding: 40px 30px 50px 50px ;
+  }
+
+
+
+.git-back{
+  background-color: cyan;
+  padding: 10px 10px 10px 40px;
+  
+}
+
+#video_container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.video {
+  justify-content: "center";
+  margin-bottom: 20px;
+}
+
+
+.tile--img__img{
+  background: rgb(147, 3, 3, 0.2);
+  padding: 20px;
+  font-size: 60px;
+  width: 80px;
+  border-radius: 60px;
+  text-align: center;
+  border: yellow solid;
+  }
+
+
+.tile--img__img:hover {background: black;}
+
+h2{
+ color: white;
+ text-align: center;
+ font-size: 45px;
+ padding: 25px;
+ text-shadow: 0 0 10px #FF0000, 0 0 8px #0000FF;
+}
+
+#secondH2 {
+ color: white;
+ text-align: center;
+ font-size: 45px;
+ padding: 10px ;
+ text-shadow: 0 0 8px blue, 0 0 8px #0000FF;
+}
+
+
+html,
+body {
+  display: "flex";
+  margin: 0;
+  height: 100%;
+  background-image: url("https://static4.depositphotos.com/1011156/276/i/600/depositphotos_2769279-stock-photo-digital-program-code.jpg");
+  opacity: 95%;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+.img {
+  width: 39px;
+  height: 39px; 
+}
